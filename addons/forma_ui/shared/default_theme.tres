@@ -1,0 +1,124 @@
+[gd_resource type="Theme" format=3]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b67fu"]
+content_margin_left = 12.0
+content_margin_top = 9.0
+content_margin_right = 12.0
+content_margin_bottom = 9.0
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.7176471, 0.6313726, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_03j1b"]
+content_margin_left = 12.0
+content_margin_top = 9.0
+content_margin_right = 12.0
+content_margin_bottom = 9.0
+bg_color = Color(0.14117648, 0.15686275, 0.21176471, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.7176471, 0.6313726, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8yldr"]
+content_margin_left = 12.0
+content_margin_top = 9.0
+content_margin_right = 12.0
+content_margin_bottom = 9.0
+bg_color = Color(0.09803922, 0.10980392, 0.14509805, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.21960784, 0.2784314, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6v7x8"]
+content_margin_left = 12.0
+content_margin_top = 9.0
+content_margin_right = 12.0
+content_margin_bottom = 9.0
+bg_color = Color(0.1882353, 0.16078432, 0.26666668, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.7176471, 0.6313726, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jt306"]
+content_margin_left = 12.0
+content_margin_top = 9.0
+content_margin_right = 12.0
+content_margin_bottom = 9.0
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.7176471, 0.6313726, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qujox"]
+content_margin_left = 12.0
+content_margin_top = 9.0
+content_margin_right = 12.0
+content_margin_bottom = 9.0
+bg_color = Color(0.05490196, 0.0627451, 0.08235294, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.21960784, 0.2784314, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[resource]
+default_font_size = 14
+Button/colors/font_color = Color(0.92941177, 0.9411765, 0.96862745, 1)
+Button/colors/font_focus_color = Color(0.92941177, 0.9411765, 0.96862745, 1)
+Button/colors/font_hover_color = Color(0.92941177, 0.9411765, 0.96862745, 1)
+Button/styles/focus = SubResource("StyleBoxFlat_b67fu")
+Button/styles/hover = SubResource("StyleBoxFlat_03j1b")
+Button/styles/normal = SubResource("StyleBoxFlat_8yldr")
+Button/styles/pressed = SubResource("StyleBoxFlat_6v7x8")
+FormaUI/colors/accent = Color(0.7176471, 0.6313726, 1, 1)
+FormaUI/colors/accent_soft = Color(0.1882353, 0.16078432, 0.26666668, 1)
+FormaUI/colors/background = Color(0.05490196, 0.0627451, 0.08235294, 1)
+FormaUI/colors/border = Color(0.2, 0.21960784, 0.2784314, 1)
+FormaUI/colors/danger = Color(0.9607843, 0.63529414, 0.68235296, 1)
+FormaUI/colors/muted = Color(0.5921569, 0.62352943, 0.7019608, 1)
+FormaUI/colors/success = Color(0.5686275, 0.8509804, 0.7372549, 1)
+FormaUI/colors/surface = Color(0.09803922, 0.10980392, 0.14509805, 1)
+FormaUI/colors/surface_hover = Color(0.14117648, 0.15686275, 0.21176471, 1)
+FormaUI/colors/text = Color(0.92941177, 0.9411765, 0.96862745, 1)
+Label/colors/font_color = Color(0.92941177, 0.9411765, 0.96862745, 1)
+LineEdit/colors/caret_color = Color(0.7176471, 0.6313726, 1, 1)
+LineEdit/colors/font_color = Color(0.92941177, 0.9411765, 0.96862745, 1)
+LineEdit/colors/font_placeholder_color = Color(0.5921569, 0.62352943, 0.7019608, 1)
+LineEdit/colors/selection_color = Color(0.1882353, 0.16078432, 0.26666668, 1)
+LineEdit/styles/focus = SubResource("StyleBoxFlat_jt306")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_qujox")

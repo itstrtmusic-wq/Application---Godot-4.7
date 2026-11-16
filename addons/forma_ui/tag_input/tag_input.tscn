@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/forma_ui/tag_input/tag_input.gd" id="1"]
+
+[node name="TagInput" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 360.0
+offset_bottom = 48.0
+script = ExtResource("1")

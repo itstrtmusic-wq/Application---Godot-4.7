@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/forma_ui/range_slider/range_slider.gd" id="1"]
+
+[node name="RangeSlider" type="Control"]
+layout_mode = 0
+offset_right = 300.0
+offset_bottom = 44.0
+script = ExtResource("1")

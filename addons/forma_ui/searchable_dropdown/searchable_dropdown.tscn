@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/forma_ui/searchable_dropdown/searchable_dropdown.gd" id="1"]
+
+[node name="SearchableDropdown" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 280.0
+offset_bottom = 44.0
+script = ExtResource("1")
